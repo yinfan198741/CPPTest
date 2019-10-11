@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		A78ED86F23489FC5001A8172 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78ED86E23489FC5001A8172 /* main.cpp */; };
+		A78ED877234B7529001A8172 /* nameTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78ED875234B7529001A8172 /* nameTest.cpp */; };
+		A78ED87A234CDFA3001A8172 /* circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78ED878234CDFA3001A8172 /* circle.cpp */; };
+		A78ED87D234CDFE9001A8172 /* point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78ED87B234CDFE9001A8172 /* point.cpp */; };
+		A78ED880234E2D15001A8172 /* middleTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78ED87E234E2D15001A8172 /* middleTest.cpp */; };
+		A78ED8842350C2B7001A8172 /* ReadFileTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78ED8822350C2B7001A8172 /* ReadFileTest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,16 @@
 /* Begin PBXFileReference section */
 		A78ED86B23489FC5001A8172 /* MyCplusTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyCplusTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78ED86E23489FC5001A8172 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A78ED875234B7529001A8172 /* nameTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nameTest.cpp; sourceTree = "<group>"; };
+		A78ED876234B7529001A8172 /* nameTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = nameTest.hpp; sourceTree = "<group>"; };
+		A78ED878234CDFA3001A8172 /* circle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = circle.cpp; sourceTree = "<group>"; };
+		A78ED879234CDFA3001A8172 /* circle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = circle.hpp; sourceTree = "<group>"; };
+		A78ED87B234CDFE9001A8172 /* point.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = point.cpp; sourceTree = "<group>"; };
+		A78ED87C234CDFE9001A8172 /* point.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = point.hpp; sourceTree = "<group>"; };
+		A78ED87E234E2D15001A8172 /* middleTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = middleTest.cpp; sourceTree = "<group>"; };
+		A78ED87F234E2D15001A8172 /* middleTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = middleTest.hpp; sourceTree = "<group>"; };
+		A78ED8822350C2B7001A8172 /* ReadFileTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReadFileTest.cpp; sourceTree = "<group>"; };
+		A78ED8832350C2B7001A8172 /* ReadFileTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReadFileTest.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +72,27 @@
 		A78ED86D23489FC5001A8172 /* MyCplusTest */ = {
 			isa = PBXGroup;
 			children = (
+				A78ED8812350C2A6001A8172 /* ReadFile */,
 				A78ED86E23489FC5001A8172 /* main.cpp */,
+				A78ED876234B7529001A8172 /* nameTest.hpp */,
+				A78ED875234B7529001A8172 /* nameTest.cpp */,
+				A78ED878234CDFA3001A8172 /* circle.cpp */,
+				A78ED879234CDFA3001A8172 /* circle.hpp */,
+				A78ED87B234CDFE9001A8172 /* point.cpp */,
+				A78ED87C234CDFE9001A8172 /* point.hpp */,
+				A78ED87E234E2D15001A8172 /* middleTest.cpp */,
+				A78ED87F234E2D15001A8172 /* middleTest.hpp */,
 			);
 			path = MyCplusTest;
+			sourceTree = "<group>";
+		};
+		A78ED8812350C2A6001A8172 /* ReadFile */ = {
+			isa = PBXGroup;
+			children = (
+				A78ED8822350C2B7001A8172 /* ReadFileTest.cpp */,
+				A78ED8832350C2B7001A8172 /* ReadFileTest.hpp */,
+			);
+			path = ReadFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A78ED87D234CDFE9001A8172 /* point.cpp in Sources */,
+				A78ED880234E2D15001A8172 /* middleTest.cpp in Sources */,
+				A78ED87A234CDFA3001A8172 /* circle.cpp in Sources */,
+				A78ED877234B7529001A8172 /* nameTest.cpp in Sources */,
 				A78ED86F23489FC5001A8172 /* main.cpp in Sources */,
+				A78ED8842350C2B7001A8172 /* ReadFileTest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
