@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A740036C235A998400BAA62E /* lkTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A740036A235A998400BAA62E /* lkTest.cpp */; };
+		A7400370235AA19700BAA62E /* DeleteChar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A740036E235AA19700BAA62E /* DeleteChar.cpp */; };
+		A7400374235AB08E00BAA62E /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7400372235AB08E00BAA62E /* Test.cpp */; };
+		A7400378235AB0FE00BAA62E /* Test02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7400376235AB0FE00BAA62E /* Test02.cpp */; };
+		A740037B235B27AE00BAA62E /* Location.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7400379235B27AE00BAA62E /* Location.cpp */; };
+		A740037F235C190600BAA62E /* Complex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A740037D235C190600BAA62E /* Complex.cpp */; };
 		A78ED86F23489FC5001A8172 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78ED86E23489FC5001A8172 /* main.cpp */; };
 		A78ED877234B7529001A8172 /* nameTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78ED875234B7529001A8172 /* nameTest.cpp */; };
 		A78ED87A234CDFA3001A8172 /* circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78ED878234CDFA3001A8172 /* circle.cpp */; };
@@ -28,6 +34,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A740036A235A998400BAA62E /* lkTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lkTest.cpp; sourceTree = "<group>"; };
+		A740036B235A998400BAA62E /* lkTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lkTest.hpp; sourceTree = "<group>"; };
+		A740036E235AA19700BAA62E /* DeleteChar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DeleteChar.cpp; sourceTree = "<group>"; };
+		A740036F235AA19700BAA62E /* DeleteChar.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DeleteChar.hpp; sourceTree = "<group>"; };
+		A7400372235AB08E00BAA62E /* Test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
+		A7400373235AB08E00BAA62E /* Test.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Test.hpp; sourceTree = "<group>"; };
+		A7400376235AB0FE00BAA62E /* Test02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test02.cpp; sourceTree = "<group>"; };
+		A7400377235AB0FE00BAA62E /* Test02.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Test02.hpp; sourceTree = "<group>"; };
+		A7400379235B27AE00BAA62E /* Location.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Location.cpp; sourceTree = "<group>"; };
+		A740037A235B27AE00BAA62E /* Location.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Location.hpp; sourceTree = "<group>"; };
+		A740037D235C190600BAA62E /* Complex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Complex.cpp; sourceTree = "<group>"; };
+		A740037E235C190600BAA62E /* Complex.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Complex.hpp; sourceTree = "<group>"; };
 		A78ED86B23489FC5001A8172 /* MyCplusTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyCplusTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78ED86E23489FC5001A8172 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A78ED875234B7529001A8172 /* nameTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nameTest.cpp; sourceTree = "<group>"; };
@@ -53,6 +71,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7400369235A996000BAA62E /* LinkTest */ = {
+			isa = PBXGroup;
+			children = (
+				A740036A235A998400BAA62E /* lkTest.cpp */,
+				A740036B235A998400BAA62E /* lkTest.hpp */,
+			);
+			path = LinkTest;
+			sourceTree = "<group>";
+		};
+		A740036D235AA18100BAA62E /* DeleteChar */ = {
+			isa = PBXGroup;
+			children = (
+				A740036E235AA19700BAA62E /* DeleteChar.cpp */,
+				A740036F235AA19700BAA62E /* DeleteChar.hpp */,
+			);
+			path = DeleteChar;
+			sourceTree = "<group>";
+		};
+		A7400371235AB07500BAA62E /* newDelloc */ = {
+			isa = PBXGroup;
+			children = (
+				A7400372235AB08E00BAA62E /* Test.cpp */,
+				A7400373235AB08E00BAA62E /* Test.hpp */,
+				A7400376235AB0FE00BAA62E /* Test02.cpp */,
+				A7400377235AB0FE00BAA62E /* Test02.hpp */,
+				A7400379235B27AE00BAA62E /* Location.cpp */,
+				A740037A235B27AE00BAA62E /* Location.hpp */,
+			);
+			path = newDelloc;
+			sourceTree = "<group>";
+		};
+		A740037C235C18CD00BAA62E /* operator */ = {
+			isa = PBXGroup;
+			children = (
+				A740037D235C190600BAA62E /* Complex.cpp */,
+				A740037E235C190600BAA62E /* Complex.hpp */,
+			);
+			path = operator;
+			sourceTree = "<group>";
+		};
 		A78ED86223489FC5001A8172 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +130,10 @@
 		A78ED86D23489FC5001A8172 /* MyCplusTest */ = {
 			isa = PBXGroup;
 			children = (
+				A740037C235C18CD00BAA62E /* operator */,
+				A7400371235AB07500BAA62E /* newDelloc */,
+				A740036D235AA18100BAA62E /* DeleteChar */,
+				A7400369235A996000BAA62E /* LinkTest */,
 				A78ED8812350C2A6001A8172 /* ReadFile */,
 				A78ED86E23489FC5001A8172 /* main.cpp */,
 				A78ED876234B7529001A8172 /* nameTest.hpp */,
@@ -151,12 +213,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A740037F235C190600BAA62E /* Complex.cpp in Sources */,
+				A7400374235AB08E00BAA62E /* Test.cpp in Sources */,
+				A7400370235AA19700BAA62E /* DeleteChar.cpp in Sources */,
 				A78ED87D234CDFE9001A8172 /* point.cpp in Sources */,
 				A78ED880234E2D15001A8172 /* middleTest.cpp in Sources */,
 				A78ED87A234CDFA3001A8172 /* circle.cpp in Sources */,
+				A740037B235B27AE00BAA62E /* Location.cpp in Sources */,
 				A78ED877234B7529001A8172 /* nameTest.cpp in Sources */,
 				A78ED86F23489FC5001A8172 /* main.cpp in Sources */,
+				A7400378235AB0FE00BAA62E /* Test02.cpp in Sources */,
 				A78ED8842350C2B7001A8172 /* ReadFileTest.cpp in Sources */,
+				A740036C235A998400BAA62E /* lkTest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

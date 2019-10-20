@@ -9,13 +9,13 @@
 #include "ReadFileTest.hpp"
 #include <iostream>
 using namespace std;
-int main() {
-	cout<<"main"<<endl;
-	FileInfoReader reader;
-	
-	reader.testFree();
-	
-//	char* filePath = "/Users/fanyin/Desktop/CFRunLoop.c";
+//int main() {
+//	cout<<"main"<<endl;
+//	FileInfoReader reader;
+//	
+////	reader.testFree();
+//	
+//	char* filePath = "/Users/fanyin/Desktop/CFRunLoop 2.c";
 //	int lineCount = 0;
 //	char** fileContent = reader.readFile(filePath,&lineCount);
 //	cout<<"lineCount"<<lineCount<<endl;
@@ -30,9 +30,9 @@ int main() {
 //		cout<<"*header = " << *header <<endl;
 //		header++;
 //	}
-//	reader.freePointer(header);
-
-}
+//	reader.freePointer(fileContent);
+//
+//}
 
 
 void FileInfoReader::testFree() {
@@ -62,18 +62,54 @@ void FileInfoReader::testFree() {
 	
 }
 
-void FileInfoReader::freePointer(char** header)
+void FileInfoReader::freePointer(char** p)
 {
-	char** temp = header;
-	int idx = 0;
-	while (temp[idx] != 0) {
-		free(temp[idx]);
-		temp[idx] = NULL;
-		idx++;
-	}
+//	char** temp = header;
+//	int idx = 0;
+//	while (temp[idx] != 0) {
+//		free(temp[idx]);
+//		temp[idx] = NULL;
+//		idx++;
+//	}
+//
+//
 //	free(temp);
+//	return;
+	int i = 0;
+	if (p == NULL)
+	{
+		return;
+	}
+	for (i=0; p[i]!=NULL; i++)
+	{
+		if (p[i] != NULL)
+		{
+			cout<<"aaaa = "<<p[i]<<endl;
+			free(p[i]) ;
+		}
+	}
+	free(p);
+	return ;
 }
 
+
+//void FreeMypp3(char **p)
+//{
+//	int i = 0;
+//	if (p == NULL)
+//	{
+//		return NULL;
+//	}
+//	for (i=0; p[i]!=NULL; i++)
+//	{
+//		if (p[i] != NULL)
+//		{
+//			free(p[i]) ;
+//		}
+//	}
+//	free(p);
+//	return ;
+//}
 
 char** FileInfoReader::readFile(char* filePath,int * lineCount) {
 	int lines = 1024;
