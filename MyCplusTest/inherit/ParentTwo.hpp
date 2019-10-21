@@ -10,5 +10,13 @@
 #define ParentTwo_hpp
 
 #include <stdio.h>
+#include "Object.hpp"
+
+class ParentTwo : public Object{
+	
+public:
+	ParentTwo(char* name);
+	char* parentTwoName;
+};
 
 #endif /* ParentTwo_hpp */

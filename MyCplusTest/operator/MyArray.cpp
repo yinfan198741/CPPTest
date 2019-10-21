@@ -10,7 +10,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main03() {
 	
 	cout<< "main array" << endl;
 //	int *p = new int[3];//{1,2,3};
@@ -61,7 +61,7 @@ int main() {
 	//	bool e1 = a != a2;
 	//	cout<< "a != a2 = " << (e1 == 1 ? "YES" : "NO") << endl;
 	
-	
+	return 0;
 }
 int *MYArray::getHead()
 {

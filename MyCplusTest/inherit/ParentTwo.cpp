@@ -8,8 +8,8 @@
 
 #include "ParentTwo.hpp"
 
-class ParentTwo {
-	
-public:
-	char* parentTwoName;
-};
+
+ParentTwo::ParentTwo (char * name): Object(200)
+{
+	this->parentTwoName = name;
+}

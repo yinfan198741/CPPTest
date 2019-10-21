@@ -7,3 +7,8 @@
 //
 
 #include "Object.hpp"
+
+Object::Object (int age)
+{
+	this->object_age = age;
+}

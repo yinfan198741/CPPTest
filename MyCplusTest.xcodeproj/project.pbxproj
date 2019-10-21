@@ -18,6 +18,8 @@
 		A740038B235DFE1300BAA62E /* Parent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7400389235DFE1300BAA62E /* Parent.cpp */; };
 		A740038E235DFE1E00BAA62E /* Child.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A740038C235DFE1E00BAA62E /* Child.cpp */; };
 		A7400391235DFE2F00BAA62E /* ParentTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A740038F235DFE2F00BAA62E /* ParentTwo.cpp */; };
+		A7400394235DFECE00BAA62E /* Toy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7400392235DFECE00BAA62E /* Toy.cpp */; };
+		A7400397235DFED700BAA62E /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7400395235DFED700BAA62E /* Car.cpp */; };
 		A78ED86F23489FC5001A8172 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78ED86E23489FC5001A8172 /* main.cpp */; };
 		A78ED877234B7529001A8172 /* nameTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78ED875234B7529001A8172 /* nameTest.cpp */; };
 		A78ED87A234CDFA3001A8172 /* circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78ED878234CDFA3001A8172 /* circle.cpp */; };
@@ -61,6 +63,10 @@
 		A740038D235DFE1E00BAA62E /* Child.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Child.hpp; sourceTree = "<group>"; };
 		A740038F235DFE2F00BAA62E /* ParentTwo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ParentTwo.cpp; sourceTree = "<group>"; };
 		A7400390235DFE2F00BAA62E /* ParentTwo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ParentTwo.hpp; sourceTree = "<group>"; };
+		A7400392235DFECE00BAA62E /* Toy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Toy.cpp; sourceTree = "<group>"; };
+		A7400393235DFECE00BAA62E /* Toy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Toy.hpp; sourceTree = "<group>"; };
+		A7400395235DFED700BAA62E /* Car.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
+		A7400396235DFED700BAA62E /* Car.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Car.hpp; sourceTree = "<group>"; };
 		A78ED86B23489FC5001A8172 /* MyCplusTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyCplusTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78ED86E23489FC5001A8172 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A78ED875234B7529001A8172 /* nameTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nameTest.cpp; sourceTree = "<group>"; };
@@ -139,6 +145,10 @@
 				A7400390235DFE2F00BAA62E /* ParentTwo.hpp */,
 				A740038C235DFE1E00BAA62E /* Child.cpp */,
 				A740038D235DFE1E00BAA62E /* Child.hpp */,
+				A7400395235DFED700BAA62E /* Car.cpp */,
+				A7400396235DFED700BAA62E /* Car.hpp */,
+				A7400392235DFECE00BAA62E /* Toy.cpp */,
+				A7400393235DFECE00BAA62E /* Toy.hpp */,
 			);
 			path = inherit;
 			sourceTree = "<group>";
@@ -246,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7400394235DFECE00BAA62E /* Toy.cpp in Sources */,
 				A7400391235DFE2F00BAA62E /* ParentTwo.cpp in Sources */,
 				A740037F235C190600BAA62E /* Complex.cpp in Sources */,
 				A7400374235AB08E00BAA62E /* Test.cpp in Sources */,
@@ -260,6 +271,7 @@
 				A78ED86F23489FC5001A8172 /* main.cpp in Sources */,
 				A7400378235AB0FE00BAA62E /* Test02.cpp in Sources */,
 				A78ED8842350C2B7001A8172 /* ReadFileTest.cpp in Sources */,
+				A7400397235DFED700BAA62E /* Car.cpp in Sources */,
 				A740036C235A998400BAA62E /* lkTest.cpp in Sources */,
 				A740038E235DFE1E00BAA62E /* Child.cpp in Sources */,
 				A7400383235CA62000BAA62E /* MyArray.cpp in Sources */,

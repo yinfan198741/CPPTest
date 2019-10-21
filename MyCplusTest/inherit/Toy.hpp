@@ -1,21 +1,20 @@
 //
-//  Object.hpp
+//  Toy.hpp
 //  MyCplusTest
 //
 //  Created by fanyin on 2019/10/21.
 //  Copyright © 2019 fanyin. All rights reserved.
 //
 
-#ifndef Object_hpp
-#define Object_hpp
+#ifndef Toy_hpp
+#define Toy_hpp
 
 #include <stdio.h>
 
-class Object {
-	
+class Toy {
 public:
-	Object(int age);
-	int object_age;
+	char* ToyName;
+	Toy(char* toyname);
 };
 
-#endif /* Object_hpp */
+#endif /* Toy_hpp */
