@@ -22,7 +22,7 @@
 #include "iostream"
 using namespace std;
 
-int main()
+int main01()
 {
 	cout<<"main"<<endl;
 //	Complex A = {1 , 2};
