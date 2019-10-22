@@ -7,8 +7,15 @@
 //
 
 #include "Object.hpp"
+#include <iostream>
+using namespace std;
 
 Object::Object (int age)
 {
 	this->object_age = age;
+}
+
+Object::~Object()
+{
+	cout<<"~Object"<<endl;
 }

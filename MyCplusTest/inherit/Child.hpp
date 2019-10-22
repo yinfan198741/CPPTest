@@ -25,7 +25,7 @@ public:
 	Child(char* cname, char * tname);
 	char* childName;
 	void printInfo();
-	~Child();
+	virtual ~Child();
 };
 
 #endif /* Child_hpp */

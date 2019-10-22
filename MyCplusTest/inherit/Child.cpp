@@ -7,6 +7,7 @@
 //
 
 #include "Child.hpp"
+#include "Object.hpp"
 #include <iostream>
 
 using namespace std;
@@ -14,9 +15,9 @@ using namespace std;
 int main()
 {
 	cout<< "main" << endl;
-	Child* c = new Child("cname","tname");
-	c->childName = "abc";
-	c->printInfo();
+	ParentTwo* c = new Child("cname","tname");
+//	c->childName = "abc";
+//	c->printInfo();
 	delete c;
 	return 0;
 }

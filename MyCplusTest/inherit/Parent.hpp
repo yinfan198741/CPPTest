@@ -18,7 +18,7 @@ class Parent : public Object{
 public:
 	Parent(char* name);
 	char* parentName;
-	
+	virtual ~Parent();
 };
 
 #endif /* Parent_hpp */

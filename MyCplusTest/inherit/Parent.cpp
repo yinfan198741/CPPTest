@@ -7,8 +7,15 @@
 //
 
 #include "Parent.hpp"
+#include <iostream>
+using namespace std;
 
 Parent::Parent(char* name):Object(100)
 {
 	this->parentName = name;
+}
+
+Parent::~Parent()
+{
+	cout<<"~Parent"<<endl;
 }

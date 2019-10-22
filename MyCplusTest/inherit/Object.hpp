@@ -16,6 +16,7 @@ class Object {
 public:
 	Object(int age);
 	int object_age;
+	virtual	~Object();
 };
 
 #endif /* Object_hpp */
