@@ -15,6 +15,7 @@ class Car {
 public:
 	Car(char* name);
 	char* carName;
+	~Car();
 };
 
 #endif /* Car_hpp */

@@ -7,3 +7,15 @@
 //
 
 #include "Toy.hpp"
+#include "iostream"
+using namespace std;
+
+Toy::Toy(char* toyname)
+{
+	this->ToyName = ToyName;
+}
+
+Toy::~Toy()
+{
+	cout<<"~Toy"<<endl;
+}

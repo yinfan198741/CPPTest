@@ -15,6 +15,7 @@ class Toy {
 public:
 	char* ToyName;
 	Toy(char* toyname);
+	~Toy();
 };
 
 #endif /* Toy_hpp */

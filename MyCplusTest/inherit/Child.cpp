@@ -14,14 +14,14 @@ using namespace std;
 int main()
 {
 	cout<< "main" << endl;
-	Child* c = new Child();
+	Child* c = new Child("cname","tname");
 	c->childName = "abc";
 	c->printInfo();
 	delete c;
 	return 0;
 }
 
-Child::Child():Parent("123"),ParentTwo("456")
+Child::Child(char* cname, char * tname): c(cname), t(tname), Parent("123"),ParentTwo("456")
 {
 	
 }
@@ -38,4 +38,9 @@ void Child::printInfo()
 //	this->parentTwoName;
 //	this->parentName;
 //	this->object_age;
+}
+
+Child::~Child()
+{
+	cout<<"~Child"<<endl;
 }
