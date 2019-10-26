@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include "Object.hpp"
 
-class ParentTwo : public Object{
+class ParentTwo :virtual  public Object{
 	
 public:
 	ParentTwo(char* name);

@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include "Object.hpp"
 
-class Parent : public Object{
+class Parent : virtual public Object{
 	
 	
 public:
