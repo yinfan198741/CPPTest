@@ -18,11 +18,11 @@ int main()
 	Child* c = new Child("cname","tname");
 	int age = c->object_age;
 	cout<<"age = "<<age<<endl;
-	delete c;
+//	delete c;
 //	int age = c->object_age;
-//	c->childName = "abc";
-//	c->printInfo();
-	
+	c->childName = "abc";
+	c->printInfo();
+	delete c;
 	
 	ParentTwo* pt = new ParentTwo("abc");
 	int age2 = pt->object_age;
@@ -34,11 +34,12 @@ int main()
 
 Child::Child(char* cname, char * tname): c(cname), t(tname), Parent("123"),ParentTwo("456"),Object(123)
 {
-	
+//	this->printInfo();
 }
 
 void Child::printInfo()
 {
+	cout<<"二义性继承-》 child 继承 ParentTwo 、Parent ,两个双亲同时继承与Object ,然后Object 里面的变量怎么办?"<<endl;
 	cout<<"this->childName  = "<< this->childName<<endl;
 	cout<<"this->parentTwoName = "<< this->parentTwoName<<endl;
 	cout<<"this->parentName = "<< this->parentName<<endl;
