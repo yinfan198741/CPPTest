@@ -16,6 +16,7 @@ class Object {
 public:
 	Object(int age);
 	int object_age;
+	char* getName();
 	virtual	~Object();
 };
 

@@ -19,3 +19,8 @@ Object::~Object()
 {
 	cout<<"~Object"<<endl;
 }
+
+char* Object::getName()
+{
+	return "Object::getName func call";
+}

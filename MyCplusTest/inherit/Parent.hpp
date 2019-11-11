@@ -18,6 +18,9 @@ class Parent : virtual public Object{
 public:
 	Parent(char* name);
 	char* parentName;
+	
+	char* getName();
+	
 	virtual ~Parent();
 };
 

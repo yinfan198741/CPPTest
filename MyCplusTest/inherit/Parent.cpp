@@ -19,3 +19,8 @@ Parent::~Parent()
 {
 	cout<<"~Parent"<<endl;
 }
+
+char* Parent::getName()
+{
+	return "Parent::getName func call";
+}
