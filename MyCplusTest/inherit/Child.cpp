@@ -11,34 +11,34 @@
 #include <iostream>
 
 using namespace std;
-
-int main()
-{
-	cout<< "main" << endl;
-	Child* c = new Child("cname","tname");
-	int age = c->object_age;
-	cout<<"age = "<<age<<endl;
-	
-	char* getName = c->getName();
-	cout<<"父亲,祖父都有的方法结果 = "<<getName<<endl;
-	
-	char* getName1 =c->Object::getName();
-//	char* getName = c::->getName();
-	cout<<"父亲,祖父都有的方法结果 = "<<getName1<<endl;
-	
-//	delete c;
+//
+//int main()
+//{
+//	cout<< "main" << endl;
+//	Child* c = new Child("cname","tname");
 //	int age = c->object_age;
-	c->childName = "abc";
-	c->printInfo();
-	delete c;
-	
-	ParentTwo* pt = new ParentTwo("abc");
-	int age2 = pt->object_age;
-	cout<<"age2 = "<<age2<<endl;
-	delete pt;
-	
-	return 0;
-}
+//	cout<<"age = "<<age<<endl;
+//
+//	char* getName = c->getName();
+//	cout<<"父亲,祖父都有的方法结果 = "<<getName<<endl;
+//
+//	char* getName1 =c->Object::getName();
+////	char* getName = c::->getName();
+//	cout<<"父亲,祖父都有的方法结果 = "<<getName1<<endl;
+//
+////	delete c;
+////	int age = c->object_age;
+//	c->childName = "abc";
+//	c->printInfo();
+//	delete c;
+//
+//	ParentTwo* pt = new ParentTwo("abc");
+//	int age2 = pt->object_age;
+//	cout<<"age2 = "<<age2<<endl;
+//	delete pt;
+//
+//	return 0;
+//}
 
 Child::Child(char* cname, char * tname): c(cname), t(tname), Parent("123"),ParentTwo("456"),Object(123)
 {

@@ -20,6 +20,7 @@
 		A7400391235DFE2F00BAA62E /* ParentTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A740038F235DFE2F00BAA62E /* ParentTwo.cpp */; };
 		A7400394235DFECE00BAA62E /* Toy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7400392235DFECE00BAA62E /* Toy.cpp */; };
 		A7400397235DFED700BAA62E /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7400395235DFED700BAA62E /* Car.cpp */; };
+		A740039E237C575400BAA62E /* functionPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A740039C237C575400BAA62E /* functionPointer.cpp */; };
 		A78ED86F23489FC5001A8172 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78ED86E23489FC5001A8172 /* main.cpp */; };
 		A78ED877234B7529001A8172 /* nameTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78ED875234B7529001A8172 /* nameTest.cpp */; };
 		A78ED87A234CDFA3001A8172 /* circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78ED878234CDFA3001A8172 /* circle.cpp */; };
@@ -67,6 +68,8 @@
 		A7400393235DFECE00BAA62E /* Toy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Toy.hpp; sourceTree = "<group>"; };
 		A7400395235DFED700BAA62E /* Car.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
 		A7400396235DFED700BAA62E /* Car.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Car.hpp; sourceTree = "<group>"; };
+		A740039C237C575400BAA62E /* functionPointer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = functionPointer.cpp; sourceTree = "<group>"; };
+		A740039D237C575400BAA62E /* functionPointer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = functionPointer.hpp; sourceTree = "<group>"; };
 		A78ED86B23489FC5001A8172 /* MyCplusTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyCplusTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78ED86E23489FC5001A8172 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A78ED875234B7529001A8172 /* nameTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nameTest.cpp; sourceTree = "<group>"; };
@@ -153,6 +156,15 @@
 			path = inherit;
 			sourceTree = "<group>";
 		};
+		A74003982379AC6800BAA62E /* polymorphism */ = {
+			isa = PBXGroup;
+			children = (
+				A740039C237C575400BAA62E /* functionPointer.cpp */,
+				A740039D237C575400BAA62E /* functionPointer.hpp */,
+			);
+			path = polymorphism;
+			sourceTree = "<group>";
+		};
 		A78ED86223489FC5001A8172 = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +184,7 @@
 		A78ED86D23489FC5001A8172 /* MyCplusTest */ = {
 			isa = PBXGroup;
 			children = (
+				A74003982379AC6800BAA62E /* polymorphism */,
 				A7400384235DFDCE00BAA62E /* inherit */,
 				A740037C235C18CD00BAA62E /* operator */,
 				A7400371235AB07500BAA62E /* newDelloc */,
@@ -275,6 +288,7 @@
 				A740036C235A998400BAA62E /* lkTest.cpp in Sources */,
 				A740038E235DFE1E00BAA62E /* Child.cpp in Sources */,
 				A7400383235CA62000BAA62E /* MyArray.cpp in Sources */,
+				A740039E237C575400BAA62E /* functionPointer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
