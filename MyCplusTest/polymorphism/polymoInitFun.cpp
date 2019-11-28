@@ -7,6 +7,9 @@
 //
 
 #include "polymoInitFun.hpp"
+#include "extendAbstract.cpp"
+#include "abstractInterfaceB.hpp"
+#include "abstractInterface.hpp"
 
 #include <iostream>
 using namespace std;
@@ -59,7 +62,7 @@ void deleteTest(pl& p)
 	delete &p;
 }
 
-int main()
+int mainPPP()
 {
 	cout<<"polymoInitFun"<<endl;
 	
@@ -84,4 +87,22 @@ int main()
 	deleteTest(*cp);
 	
 	return 0;
+}
+
+
+int main()
+{
+	cout<<"main"<<endl;
+	extendText t;
+	int r = t.add(1, 2);
+	
+	interfaceA* fa = &t;
+	int r2 = fa->add(2,2);
+	
+	interfaceB* fa2 = &t;
+	int r3 = fa2->add(4,4);
+	
+	cout<<" r = " << r <<endl;
+	cout<<" r2 = " << r2 <<endl;
+	cout<<" r3 = " << r3 <<endl;
 }

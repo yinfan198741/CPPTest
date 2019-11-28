@@ -24,6 +24,9 @@
 		A74003A1237D9BFD00BAA62E /* childOverrideParent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A740039F237D9BFD00BAA62E /* childOverrideParent.cpp */; };
 		A74003A4237D9F6100BAA62E /* vptrExist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A74003A2237D9F6100BAA62E /* vptrExist.cpp */; };
 		A74003A7237DA2A200BAA62E /* polymoInitFun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A74003A5237DA2A200BAA62E /* polymoInitFun.cpp */; };
+		A7400439239014FD00BAA62E /* abstractInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7400437239014FD00BAA62E /* abstractInterface.cpp */; };
+		A740043C2390153600BAA62E /* abstractInterfaceB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A740043A2390153600BAA62E /* abstractInterfaceB.cpp */; };
+		A740043F2390158700BAA62E /* extendAbstract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A740043D2390158700BAA62E /* extendAbstract.cpp */; };
 		A78ED86F23489FC5001A8172 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78ED86E23489FC5001A8172 /* main.cpp */; };
 		A78ED877234B7529001A8172 /* nameTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78ED875234B7529001A8172 /* nameTest.cpp */; };
 		A78ED87A234CDFA3001A8172 /* circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78ED878234CDFA3001A8172 /* circle.cpp */; };
@@ -79,6 +82,12 @@
 		A74003A3237D9F6100BAA62E /* vptrExist.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = vptrExist.hpp; sourceTree = "<group>"; };
 		A74003A5237DA2A200BAA62E /* polymoInitFun.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = polymoInitFun.cpp; sourceTree = "<group>"; };
 		A74003A6237DA2A200BAA62E /* polymoInitFun.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = polymoInitFun.hpp; sourceTree = "<group>"; };
+		A7400437239014FD00BAA62E /* abstractInterface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = abstractInterface.cpp; sourceTree = "<group>"; };
+		A7400438239014FD00BAA62E /* abstractInterface.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = abstractInterface.hpp; sourceTree = "<group>"; };
+		A740043A2390153600BAA62E /* abstractInterfaceB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = abstractInterfaceB.cpp; sourceTree = "<group>"; };
+		A740043B2390153600BAA62E /* abstractInterfaceB.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = abstractInterfaceB.hpp; sourceTree = "<group>"; };
+		A740043D2390158700BAA62E /* extendAbstract.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = extendAbstract.cpp; sourceTree = "<group>"; };
+		A740043E2390158700BAA62E /* extendAbstract.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = extendAbstract.hpp; sourceTree = "<group>"; };
 		A78ED86B23489FC5001A8172 /* MyCplusTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyCplusTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78ED86E23489FC5001A8172 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A78ED875234B7529001A8172 /* nameTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nameTest.cpp; sourceTree = "<group>"; };
@@ -176,6 +185,12 @@
 				A74003A3237D9F6100BAA62E /* vptrExist.hpp */,
 				A74003A5237DA2A200BAA62E /* polymoInitFun.cpp */,
 				A74003A6237DA2A200BAA62E /* polymoInitFun.hpp */,
+				A7400437239014FD00BAA62E /* abstractInterface.cpp */,
+				A7400438239014FD00BAA62E /* abstractInterface.hpp */,
+				A740043A2390153600BAA62E /* abstractInterfaceB.cpp */,
+				A740043B2390153600BAA62E /* abstractInterfaceB.hpp */,
+				A740043D2390158700BAA62E /* extendAbstract.cpp */,
+				A740043E2390158700BAA62E /* extendAbstract.hpp */,
 			);
 			path = polymorphism;
 			sourceTree = "<group>";
@@ -303,8 +318,11 @@
 				A740036C235A998400BAA62E /* lkTest.cpp in Sources */,
 				A740038E235DFE1E00BAA62E /* Child.cpp in Sources */,
 				A74003A7237DA2A200BAA62E /* polymoInitFun.cpp in Sources */,
+				A740043C2390153600BAA62E /* abstractInterfaceB.cpp in Sources */,
+				A7400439239014FD00BAA62E /* abstractInterface.cpp in Sources */,
 				A7400383235CA62000BAA62E /* MyArray.cpp in Sources */,
 				A740039E237C575400BAA62E /* functionPointer.cpp in Sources */,
+				A740043F2390158700BAA62E /* extendAbstract.cpp in Sources */,
 				A74003A1237D9BFD00BAA62E /* childOverrideParent.cpp in Sources */,
 				A74003A4237D9F6100BAA62E /* vptrExist.cpp in Sources */,
 			);
