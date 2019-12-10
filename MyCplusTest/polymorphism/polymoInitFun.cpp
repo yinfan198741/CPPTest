@@ -89,9 +89,21 @@ int mainPPP()
 	return 0;
 }
 
+void TT(int &a)
+{
+	a = 5;
+}
+
+
+void TT2(int *a)
+{
+	*a = 4;
+}
 
 int main()
 {
+
+	
 	cout<<"main"<<endl;
 	extendText t;
 	int r = t.add(1, 2);
@@ -105,4 +117,12 @@ int main()
 	cout<<" r = " << r <<endl;
 	cout<<" r2 = " << r2 <<endl;
 	cout<<" r3 = " << r3 <<endl;
+	cout<<" 多重继承接口类型没有二异性(类中只有抽象方法) "<< endl;
+	
+	int a = 7;
+	cout<<" a = " << a <<endl;
+	TT(a);
+	cout<<" a1 = " << a <<endl;
+	TT2(&a);
+	cout<<" a2 = " << a <<endl;
 }
