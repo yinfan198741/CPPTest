@@ -100,29 +100,29 @@ void TT2(int *a)
 	*a = 4;
 }
 
-int main()
-{
-
-	
-	cout<<"main"<<endl;
-	extendText t;
-	int r = t.add(1, 2);
-	
-	interfaceA* fa = &t;
-	int r2 = fa->add(2,2);
-	
-	interfaceB* fa2 = &t;
-	int r3 = fa2->add(4,4);
-	
-	cout<<" r = " << r <<endl;
-	cout<<" r2 = " << r2 <<endl;
-	cout<<" r3 = " << r3 <<endl;
-	cout<<" 多重继承接口类型没有二异性(类中只有抽象方法) "<< endl;
-	
-	int a = 7;
-	cout<<" a = " << a <<endl;
-	TT(a);
-	cout<<" a1 = " << a <<endl;
-	TT2(&a);
-	cout<<" a2 = " << a <<endl;
-}
+//int mainpp4()
+//{
+//
+//	
+//	cout<<"main"<<endl;
+//	extendText t;
+//	int r = t.add(1, 2);
+//	
+//	interfaceA* fa = &t;
+//	int r2 = fa->add(2,2);
+//	
+//	interfaceB* fa2 = &t;
+//	int r3 = fa2->add(4,4);
+//	
+//	cout<<" r = " << r <<endl;
+//	cout<<" r2 = " << r2 <<endl;
+//	cout<<" r3 = " << r3 <<endl;
+//	cout<<" 多重继承接口类型没有二异性(类中只有抽象方法) "<< endl;
+//	
+//	int a = 7;
+//	cout<<" a = " << a <<endl;
+//	TT(a);
+//	cout<<" a1 = " << a <<endl;
+//	TT2(&a);
+//	cout<<" a2 = " << a <<endl;
+//}

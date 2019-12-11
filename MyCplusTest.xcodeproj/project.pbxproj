@@ -33,6 +33,7 @@
 		A78ED87D234CDFE9001A8172 /* point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78ED87B234CDFE9001A8172 /* point.cpp */; };
 		A78ED880234E2D15001A8172 /* middleTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78ED87E234E2D15001A8172 /* middleTest.cpp */; };
 		A78ED8842350C2B7001A8172 /* ReadFileTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78ED8822350C2B7001A8172 /* ReadFileTest.cpp */; };
+		A7BCA037239FEB2300EAF4BE /* TemplateTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7BCA035239FEB2300EAF4BE /* TemplateTest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -100,6 +101,8 @@
 		A78ED87F234E2D15001A8172 /* middleTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = middleTest.hpp; sourceTree = "<group>"; };
 		A78ED8822350C2B7001A8172 /* ReadFileTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReadFileTest.cpp; sourceTree = "<group>"; };
 		A78ED8832350C2B7001A8172 /* ReadFileTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReadFileTest.hpp; sourceTree = "<group>"; };
+		A7BCA035239FEB2300EAF4BE /* TemplateTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TemplateTest.cpp; sourceTree = "<group>"; };
+		A7BCA036239FEB2300EAF4BE /* TemplateTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TemplateTest.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +217,7 @@
 		A78ED86D23489FC5001A8172 /* MyCplusTest */ = {
 			isa = PBXGroup;
 			children = (
+				A7BCA034239FEB0000EAF4BE /* Template */,
 				A74003982379AC6800BAA62E /* polymorphism */,
 				A7400384235DFDCE00BAA62E /* inherit */,
 				A740037C235C18CD00BAA62E /* operator */,
@@ -241,6 +245,15 @@
 				A78ED8832350C2B7001A8172 /* ReadFileTest.hpp */,
 			);
 			path = ReadFile;
+			sourceTree = "<group>";
+		};
+		A7BCA034239FEB0000EAF4BE /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				A7BCA035239FEB2300EAF4BE /* TemplateTest.cpp */,
+				A7BCA036239FEB2300EAF4BE /* TemplateTest.hpp */,
+			);
+			path = Template;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +324,7 @@
 				A740037B235B27AE00BAA62E /* Location.cpp in Sources */,
 				A740038B235DFE1300BAA62E /* Parent.cpp in Sources */,
 				A78ED877234B7529001A8172 /* nameTest.cpp in Sources */,
+				A7BCA037239FEB2300EAF4BE /* TemplateTest.cpp in Sources */,
 				A78ED86F23489FC5001A8172 /* main.cpp in Sources */,
 				A7400378235AB0FE00BAA62E /* Test02.cpp in Sources */,
 				A78ED8842350C2B7001A8172 /* ReadFileTest.cpp in Sources */,
