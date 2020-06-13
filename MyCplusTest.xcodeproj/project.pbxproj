@@ -33,6 +33,7 @@
 		A78ED87D234CDFE9001A8172 /* point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78ED87B234CDFE9001A8172 /* point.cpp */; };
 		A78ED880234E2D15001A8172 /* middleTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78ED87E234E2D15001A8172 /* middleTest.cpp */; };
 		A78ED8842350C2B7001A8172 /* ReadFileTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78ED8822350C2B7001A8172 /* ReadFileTest.cpp */; };
+		A79A62A72494C91000506FEE /* lee167.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79A62A52494C91000506FEE /* lee167.cpp */; };
 		A7BCA037239FEB2300EAF4BE /* TemplateTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7BCA035239FEB2300EAF4BE /* TemplateTest.cpp */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +102,8 @@
 		A78ED87F234E2D15001A8172 /* middleTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = middleTest.hpp; sourceTree = "<group>"; };
 		A78ED8822350C2B7001A8172 /* ReadFileTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReadFileTest.cpp; sourceTree = "<group>"; };
 		A78ED8832350C2B7001A8172 /* ReadFileTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReadFileTest.hpp; sourceTree = "<group>"; };
+		A79A62A52494C91000506FEE /* lee167.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lee167.cpp; sourceTree = "<group>"; };
+		A79A62A62494C91000506FEE /* lee167.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lee167.hpp; sourceTree = "<group>"; };
 		A7BCA035239FEB2300EAF4BE /* TemplateTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TemplateTest.cpp; sourceTree = "<group>"; };
 		A7BCA036239FEB2300EAF4BE /* TemplateTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TemplateTest.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -217,6 +220,7 @@
 		A78ED86D23489FC5001A8172 /* MyCplusTest */ = {
 			isa = PBXGroup;
 			children = (
+				A79A629E2494C88700506FEE /* leetcode */,
 				A7BCA034239FEB0000EAF4BE /* Template */,
 				A74003982379AC6800BAA62E /* polymorphism */,
 				A7400384235DFDCE00BAA62E /* inherit */,
@@ -245,6 +249,15 @@
 				A78ED8832350C2B7001A8172 /* ReadFileTest.hpp */,
 			);
 			path = ReadFile;
+			sourceTree = "<group>";
+		};
+		A79A629E2494C88700506FEE /* leetcode */ = {
+			isa = PBXGroup;
+			children = (
+				A79A62A52494C91000506FEE /* lee167.cpp */,
+				A79A62A62494C91000506FEE /* lee167.hpp */,
+			);
+			path = leetcode;
 			sourceTree = "<group>";
 		};
 		A7BCA034239FEB0000EAF4BE /* Template */ = {
@@ -319,6 +332,7 @@
 				A7400370235AA19700BAA62E /* DeleteChar.cpp in Sources */,
 				A78ED87D234CDFE9001A8172 /* point.cpp in Sources */,
 				A7400387235DFDFF00BAA62E /* Object.cpp in Sources */,
+				A79A62A72494C91000506FEE /* lee167.cpp in Sources */,
 				A78ED880234E2D15001A8172 /* middleTest.cpp in Sources */,
 				A78ED87A234CDFA3001A8172 /* circle.cpp in Sources */,
 				A740037B235B27AE00BAA62E /* Location.cpp in Sources */,

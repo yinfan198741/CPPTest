@@ -44,36 +44,36 @@ void  printArrayTemp(ARRAY* array,int count ) {
 
 
 
-int main()
-{
-	cout<<"main"<<endl;
-	
-
-	int a = 2;
-	int b = 3;
-	cout << "a = " << a << " b = "<< b << endl;
-	swapT(a,b);
-	cout << "a = " << a << " b = "<< b << endl;
-	
-	
-	float d = 3.1;
-	float e = 4.1;
-	cout << "d = " << d << " e = "<< e << endl;
-	swapT(d,e);
-	cout << "d = " << d << " e = "<< e << endl;
-	
-	
-	MyTemplate<int> tp;
-	tp.type = 5;
-	int type =tp.getType();
-	
-	cout << "type = " << type << endl;
-	
-	int array_a[3] = { 1 , 2 , 3};
-	printArray(array_a , 3);
-	
-	cout << "printArrayTemp "  << endl;
-	printArrayTemp(array_a , 3);
-	
-	return 0;
-}
+//int main()
+//{
+//	cout<<"main"<<endl;
+//	
+//
+//	int a = 2;
+//	int b = 3;
+//	cout << "a = " << a << " b = "<< b << endl;
+//	swapT(a,b);
+//	cout << "a = " << a << " b = "<< b << endl;
+//	
+//	
+//	float d = 3.1;
+//	float e = 4.1;
+//	cout << "d = " << d << " e = "<< e << endl;
+//	swapT(d,e);
+//	cout << "d = " << d << " e = "<< e << endl;
+//	
+//	
+//	MyTemplate<int> tp;
+//	tp.type = 5;
+//	int type =tp.getType();
+//	
+//	cout << "type = " << type << endl;
+//	
+//	int array_a[3] = { 1 , 2 , 3};
+//	printArray(array_a , 3);
+//	
+//	cout << "printArrayTemp "  << endl;
+//	printArrayTemp(array_a , 3);
+//	
+//	return 0;
+//}
