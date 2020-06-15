@@ -76,7 +76,7 @@ std::vector<int> twoSum2(std::vector<int>& numbers, int target) {
 }
 
 
-int main ()
+int main12 ()
 {
 	std::vector<int> input = {2,7,11,15};
 	std::vector<int> output = twoSum2(input,9);

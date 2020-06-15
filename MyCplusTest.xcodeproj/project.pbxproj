@@ -34,6 +34,7 @@
 		A78ED880234E2D15001A8172 /* middleTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78ED87E234E2D15001A8172 /* middleTest.cpp */; };
 		A78ED8842350C2B7001A8172 /* ReadFileTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A78ED8822350C2B7001A8172 /* ReadFileTest.cpp */; };
 		A79A62A72494C91000506FEE /* lee167.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79A62A52494C91000506FEE /* lee167.cpp */; };
+		A79A62AA24959F2800506FEE /* lee53.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79A62A824959F2800506FEE /* lee53.cpp */; };
 		A7BCA037239FEB2300EAF4BE /* TemplateTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7BCA035239FEB2300EAF4BE /* TemplateTest.cpp */; };
 /* End PBXBuildFile section */
 
@@ -104,6 +105,8 @@
 		A78ED8832350C2B7001A8172 /* ReadFileTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReadFileTest.hpp; sourceTree = "<group>"; };
 		A79A62A52494C91000506FEE /* lee167.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lee167.cpp; sourceTree = "<group>"; };
 		A79A62A62494C91000506FEE /* lee167.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lee167.hpp; sourceTree = "<group>"; };
+		A79A62A824959F2800506FEE /* lee53.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lee53.cpp; sourceTree = "<group>"; };
+		A79A62A924959F2800506FEE /* lee53.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lee53.hpp; sourceTree = "<group>"; };
 		A7BCA035239FEB2300EAF4BE /* TemplateTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TemplateTest.cpp; sourceTree = "<group>"; };
 		A7BCA036239FEB2300EAF4BE /* TemplateTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TemplateTest.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -256,6 +259,8 @@
 			children = (
 				A79A62A52494C91000506FEE /* lee167.cpp */,
 				A79A62A62494C91000506FEE /* lee167.hpp */,
+				A79A62A824959F2800506FEE /* lee53.cpp */,
+				A79A62A924959F2800506FEE /* lee53.hpp */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -337,6 +342,7 @@
 				A78ED87A234CDFA3001A8172 /* circle.cpp in Sources */,
 				A740037B235B27AE00BAA62E /* Location.cpp in Sources */,
 				A740038B235DFE1300BAA62E /* Parent.cpp in Sources */,
+				A79A62AA24959F2800506FEE /* lee53.cpp in Sources */,
 				A78ED877234B7529001A8172 /* nameTest.cpp in Sources */,
 				A7BCA037239FEB2300EAF4BE /* TemplateTest.cpp in Sources */,
 				A78ED86F23489FC5001A8172 /* main.cpp in Sources */,
